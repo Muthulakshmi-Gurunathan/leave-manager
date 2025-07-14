@@ -1,0 +1,9 @@
+We already have implemented the authentication with JWT. Now we have to implement the role based authorization to this springboot app.
+
+The MANAGER role will act as Admin.
+The EMPLOYEE role will act as Normal User.
+
+The EMPLOYEE is the one who applies for the leave.
+The MANAGER is the one who approves the leave.
+
+The MANAGER is also an EMPLOYEE who will get the leave request approved from his MANAGER.
